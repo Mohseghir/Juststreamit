@@ -1,0 +1,84 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  background: linear-gradient(to left,#0b0101, #f13c3c)
+  }
+
+.entete {
+  background-color: rgb(185, 25, 25);
+  display: flex;
+  justify-content: space-between;
+}
+    
+.left {
+  align-self: center;
+}
+    
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.scroll-films {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+  
+.scroll-films::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #aaa;
+}
+  
+.scroll-films::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+  
+.film {
+  width: auto;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+  
+.pied-de-page {
+    background-color: rgb(36, 18, 18);
+  }
+  a {
+    color: rgb(242, 234, 234);
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  em {
+    color: #a5b4fc;
+    font-style: normal;
+  }
+  
+  h1 {
+    font-size: 1em;
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1.1em;
+    color: rgb(242, 234, 234);
+    text-align: center;
+  }
+
+
+.flow {
+  display: grid;
+  gap: var(--size-1000);
+}
