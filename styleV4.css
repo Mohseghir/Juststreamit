@@ -1,0 +1,344 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+  text-align: left;
+  background: linear-gradient(to left, #0b0101, #f13c3c);
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------------------------------     <!--En tête--> */
+header {
+  width: 100%;
+  height: auto;
+  top: 70px;
+  margin: 0 auto 0 auto;
+}
+
+.page-header {
+  padding-block: 10px;
+  margin-block-end: 0;
+  background: black;
+  color: grey;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  float: right;
+}
+
+nav a {
+  color: grey;
+}
+
+.nav-item {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item li {
+  margin-right: 1rem;
+}
+
+/* --------------meilleur film------------- */
+
+.best {
+  background-size: cover;
+  padding: 20px 200px 80px 200px;
+  margin: 0px 0px 0px 0px;
+  ;
+}
+
+.best-movie-title {
+  font-size: 45px;
+  margin-block-start: 0;
+  margin-block-end: 0.83em;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.best-cover img {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  float: right;
+  max-width: 280px;
+  min-width: 200px;
+  width: 50%;
+}
+
+.page-title,
+.page-subtitle {
+  margin: 10px;
+}
+
+
+.Button_info {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  background-color: #121212;
+  border: 1px solid #010101;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+}
+
+
+/*------------modal------------*/
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  max-height: 800px;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hiden {
+  display: none;
+}
+
+.cover_modal {
+  float: right;
+  margin-left: 20px;
+  width: 25%;
+  height: 45%;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: end;
+}
+
+.modal_content {
+  overflow: hidden;
+  background: linear-gradient(to left, #0b0101, #f13c3c);
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+}
+
+.img_modal {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h4 {
+  color: black;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.fa-solid {
+  color: rgb(10, 1, 1);
+  font-size: 20px;
+  margin: 0px 10px;
+  display: flex;
+  justify-content: end;
+}
+
+.best-movie-description p {
+  font-style: italic;
+  line-height: 180%;
+  margin-right: 60%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+/*___________catégorie meilleur film______*/
+
+.left {
+
+  width: 5%;
+
+}
+
+.center {
+
+  width: 80%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.right {
+
+  width: 5%;
+
+}
+
+.location {
+
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.location h1 {
+  margin-inline-start: 85px;
+  margin-inline-end: 0px;
+  font-weight: bold
+}
+
+
+.contener_movie {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+}
+
+.contener_movie button {
+  display: flex;
+  height: 60px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #d21010;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.box_picture {
+  height: 612px;
+}
+
+.box_picture img {
+  height: 500px;
+}
+
+
+/*___________catégorie meilleur film______*/
+
+/*-----------------
+box fleche
+-----------------**/
+
+/* Put your css in here */
+.box {
+  display: flex;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  gap: 10px;
+}
+
+.left {
+
+  width: 5%;
+
+}
+
+.center {
+
+  width: 80%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.right {
+
+  width: 5%;
+
+}
+
+.box_picture {
+  height: 350px;
+}
+
+.box_picture img {
+  height: 300px;
+}
+
+
+
+/* general styling */
+
+.accueil-introduction {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  align-items: auto;
+  margin: auto;
+}
+
+.accueil-introduction p {
+  margin-bottom: 30px;
+}
+
+.accueil-introduction div {
+  padding-right: 0;
+}
+
+.accueil-introduction img {
+  width: 100%;
+  height: 100%;
+  inline-size: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.pied-de-page {
+  background-color: black;
+  padding-block: 20px;
+  background: black;
+  color: grey;
+  text-align: center;
+}
+
+.pied-de-page a {
+  color: grey;
+}
+
+.span a {
+  display: flex;
+  padding-block: 20px;
+  background: black;
+  color: grey;
+  text-align: center;
+
+}
