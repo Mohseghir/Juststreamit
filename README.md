@@ -1,8 +1,8 @@
-# Juststreamit
+# Dev App Python
 
 # P 6 - JustStreamIt
 
- #### le but du projet :
+#### But du projet :
 
 créer une application web permettant de visualiser en temps réel un classement de films intéressants.
 
@@ -11,10 +11,7 @@ Cela en utilisant'OCMovies Rest API' pour:
 - créer des catégories de film par classement,
 - donner les informations de chaque film.
 
-- UX/UI based on Netflix.
-- Stack used: HTML, CSS and Vanilla JavaScript.
-- My Python version : 3.10.1
-
+Et cela en utilisant HTLM, CSS et Vanilla Javascript
 
 ## Installation
 
@@ -22,7 +19,7 @@ Cela en utilisant'OCMovies Rest API' pour:
 
 Installation et activation du serveur local de OCMovies-API.
 
-Pour cela, je vous revois vers le ripo de l'API, vous trouverez tout en details:
+Pour installer et activer votre API local, je vous renvois vers le ripo dédié, vous trouverez tout en détails:
 
 ```bash
 https://github.com/OpenClassrooms-Student-Center/OCMovies-API-EN-FR
