@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styleV4.css" />
+    <script src="https://kit.fontawesome.com/b92704fbb5.js" crossorigin="anonymous"></script>
+    <title>JustStreamIt.com</title>
+</head>
+
+<body>
+    <!--En tête-->
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title">JustStreamIt</h1>
+            <p class="page-subtitle">Vous ne savez pas quoi regarder pour passer une bonne soirée? JustStreamIt!</p>
+            <nav>
+                <ul class="nav-item" id="nav-item">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#categories">Catégories</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- meilleur film toute cathégorie  -->
+        <section class="best" id="best-movie">
+            <div class="best-cover" id="top0">
+                <img alt="movie cover" src="" />
+            </div>
+            <div class="best_movie">
+                <h1 class="best-movie-title" id="top-title">""</h1>
+            </div>
+            <div class="best-movie-description">
+                <p class="description" id="top-description">""</p>
+            </div>
+            <div class="buttonInfo">
+                <button aria-label="open modal" class="Button_info" id="button_more_info">
+                    Infos
+                </button>
+            </div>
+        </section>
+        <!-- Fenetre modal -->
+        <div id="modal_box" class="modal hiden">
+            <div class="modal_content">
+                <span id="button_close" class="bt">
+                    <i class="fa-solid fa-rectangle-xmark"></i>
+                </span>
+                <!-- html description  -->
+                <h3 id="title"></h3>
+                <div class="cover_modal">
+                    <img id="image" class="img_modal" src="" />
+                </div>
+                <h4>Titre du film :</h4>
+                <p id="title_best"></p>
+                <h4>Genre complet du film :</h4>
+                <p id="genre"></p>
+                <h4>Date de sortie :</h4>
+                <p id="date_published"></p>
+                <h4>Rated :</h4>
+                <p id="rated"></p>
+                <h4>Score Imdb :</h4>
+                <p id="imdb_score"></p>
+                <h4>Réalisateur :</h4>
+                <p id="director"></p>
+                <h4>Liste des acteurs :</h4>
+                <p id="actors"></p>
+                <h4>Durée :</h4>
+                <p id="duration"></p>
+                <h4>Pays d’origine :</h4>
+                <p id="country"></p>
+                <h4>Résumé du film :</h4>
+                <p id="description"></p>
+            </div>
+        </div>
+        <!-- Catégorie meilleur films -->
+        <section class="best_items" id="items">
+            <div class="location" id="categories">
+                <h1>Catégorie films les mieux notés</h1>
+                <div class="contener_movie">
+                    <div class="left">
+                        <button class="left-button" data-box="best_box_picture">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                    </div>
+                    <div class="box center box_picture" id="best_box_picture"></div>
+                    <div class="right">
+                        <button class="right-button" data-box="best_box_picture">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Catégorie Action  -->
+        <section class="best_items_Action" id="items_Action">
+            <div class="location">
+                <h1>Catégorie meilleurs films d'action</h1>
+                <div class="contener_movie">
+                    <div class="left">
+                        <button class="left-button" data-box="Action_box_picture">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                    </div>
+                    <div class="box center box_picture" id="Action_box_picture"></div>
+                    <div class="right">
+                        <button class="right-button" data-box="Action_box_picture">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Catégorie Guerre  -->
+        <section class="best_items_War" id="items_War">
+            <div class="location">
+                <h1>Catégorie meilleurs films de Guerre</h1>
+                <div class="contener_movie">
+                    <div class="left">
+                        <button class="left-button" data-box="War_box_picture">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                    </div>
+                    <div class="box center box_picture" id="War_box_picture"></div>
+                    <div class="right">
+                        <button class="right-button" data-box="War_box_picture">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Catégorie Sport  -->
+        <section class="best_items_Sport" id="items_Sport">
+            <div class="location">
+                <h1>Catégorie meilleurs films de Sport</h1>
+                <div class="contener_movie">
+                    <div class="left">
+                        <button class="left-button" data-box="Sport_box_picture">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                    </div>
+                    <div class="box center box_picture" id="Sport_box_picture"></div>
+                    <div class="right">
+                        <button class="right-button" data-box="Sport_box_picture">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Modal 2 -->
+        <div id="modal_box_2" class="modal hiden">
+            <div class="modal_content">
+                <span id="button_close_2" class="bt">
+                    <i class="fa-solid fa-rectangle-xmark"></i>
+                </span>
+                <div class="cover_modal">
+                    <img id="image_2" class="img_modal" alt="" src="" />
+                </div>
+                <h4>Titre du film :</h4>
+                <p id="title_2"></p>
+                <h4>Genre complet du film :</h4>
+                <p id="genre_2"></p>
+                <h4>Date de sortie :</h4>
+                <p id="date_published_2"></p>
+                <h4>Rated :</h4>
+                <p id="rated_2"></p>
+                <h4>Score Imdb :</h4>
+                <p id="imdb_score_2"></p>
+                <h4>Réalisateur :</h4>
+                <p id="director_2"></p>
+                <h4>Liste des acteurs :</h4>
+                <p id="actors_2"></p>
+                <h4>Durée :</h4>
+                <p id="duration_2"></p>
+                <h4>Pays d’origine :</h4>
+                <p id="country_2"></p>
+                <h4>Résumé du film :</h4>
+                <p id="description_2"></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="pied-de-page">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+                integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+                crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <span>
+                <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            </span>
+        </div>
+    </footer>
+
+    <script src="scriptV4.js"></script>
+</body>
+
+</html>
