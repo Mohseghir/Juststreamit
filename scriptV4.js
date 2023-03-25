@@ -1,4 +1,4 @@
-// difinition de l'url de API endpoint
+// definition de l'url de API endpoint
 const URL = "http://localhost:8000/api/v1/titles/";
 
 
