@@ -2,7 +2,7 @@
 const URL = "http://localhost:8000/api/v1/titles/";
 
 
-// Creation de dictionnaire ou arroy pour stocker les info
+// Creation de dictionnaire ou array pour stocker les info
 let bestMovies = [];
 
 
